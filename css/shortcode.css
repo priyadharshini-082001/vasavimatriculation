@@ -818,8 +818,11 @@ body {
 	margin-bottom: 0;
 	color: transparent;
 	overflow: visible !important;
-	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
-	-webkit-text-fill-color: var(--pbmit-light-color);
+	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5),
+	 -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 
+	 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5),
+	  -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
+	-webkit-text-fill-color: var(--pbmit-global-color);
 	-webkit-text-stroke-width: 0;
 	color: transparent;
 }
@@ -2333,19 +2336,19 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper1{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/INFRA/BUILDING.JPG);
+	background-image: url(../images/infra/DSC_6611.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.276);
 	background-blend-mode: overlay;
 
 }
 .pbmit-title-bar-wrapper2{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/MANAGEMENT/principal.jpg);
+	background-image: url(../images/management/principal.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2357,7 +2360,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper3{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/MANAGEMENT/president.png);
+	background-image: url(../images/management/president.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2369,9 +2372,9 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper4{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/LOGO/coursebg.jpg);
+	background-image: url(../images/std/5th\ std.JPG);
     background-repeat: no-repeat;
-    background-position: center;
+	background-position: center;
     background-size: cover;
     background-attachment: scroll;
 	background-color: rgba(0, 0, 0, 0.51);
@@ -2381,7 +2384,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper5{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/LOGO/cocurriculumbg.jpg);
+	background-image: url(../images/logo/1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2393,7 +2396,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper6{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/LOGO/extrabg.jpg);
+	background-image: url(../images/facility/kids3.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2405,7 +2408,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper7{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/LOGO/crum1.jpg);
+	background-image: url(../images/std/kg\ 1.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2417,7 +2420,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper8{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/finalevent/tamilfunction.jpg);
+	background-image: url(../images/logo/9\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2429,7 +2432,7 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper9{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/LOGO/contactbg.jpg);
+	background-image: url(../images/infra/build_enhanced.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
