@@ -2358,9 +2358,9 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper3{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/logo/flag\ hoist.jpg);
+	background-image: url(../images/award/award3.jpg);
     background-repeat: no-repeat;
-
+  background-position: center;
     background-size: cover;
     background-attachment: scroll;
 background-color: rgba(0, 0, 0, 0.386);
