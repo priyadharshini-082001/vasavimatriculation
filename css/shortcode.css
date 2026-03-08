@@ -818,8 +818,9 @@ body {
 	margin-bottom: 0;
 	color: transparent;
 	overflow: visible !important;
-	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
-	-webkit-text-fill-color: var(--pbmit-light-color);
+	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb),
+	 .5), -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
+	-webkit-text-fill-color: var(--pbmit-global-color);
 	-webkit-text-stroke-width: 0;
 	color: transparent;
 }
@@ -2357,9 +2358,9 @@ footer.site-footer a{
 .pbmit-title-bar-wrapper3{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/management/president.png);
+	background-image: url(../images/logo/flag\ hoist.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+
     background-size: cover;
     background-attachment: scroll;
 background-color: rgba(0, 0, 0, 0.386);
