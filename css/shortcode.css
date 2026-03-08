@@ -818,11 +818,8 @@ body {
 	margin-bottom: 0;
 	color: transparent;
 	overflow: visible !important;
-	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5),
-	 -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 
-	 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5),
-	  -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
-	-webkit-text-fill-color: var(--pbmit-global-color);
+	text-shadow: 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px -1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), -1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5), 1px 1px 0 rgba(var(--pbmit-blackish-color-rgb), .5);
+	-webkit-text-fill-color: var(--pbmit-light-color);
 	-webkit-text-stroke-width: 0;
 	color: transparent;
 }
@@ -2341,7 +2338,7 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.276);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2353,7 +2350,7 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-		background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2365,7 +2362,7 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2377,7 +2374,7 @@ footer.site-footer a{
 	background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2389,7 +2386,7 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2401,19 +2398,19 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
 .pbmit-title-bar-wrapper7{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/std/kg\ 1.JPG);
+	background-image: url(../images/std/5th\ std.JPG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-		background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2425,7 +2422,7 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.51);
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
@@ -2437,7 +2434,18 @@ footer.site-footer a{
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
-	background-color: rgba(0, 0, 0, 0.774);
+	background-color: rgba(0, 0, 0, 0.386);
+	background-blend-mode: overlay;
+
+}
+.pbmit-title-bar-wrapper10{
+	position: relative;
+	z-index: 1;
+	background-image: url(../images/logo/M1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
 
 }
