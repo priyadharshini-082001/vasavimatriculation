@@ -54,6 +54,8 @@
 .pbmit-sticky-corner svg path {
     fill: var(--pbmit-light-color);
 }
+
+
 .pbmit-top-right-corner {
     top: -30px;
     right: 0%;
