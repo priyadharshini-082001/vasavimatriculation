@@ -2466,12 +2466,12 @@ body {
     }
 
     .profile-content h2 {
-        font-size: 24px;
+        font-size: 26px;
 			margin-top: -5%;
     }
 
     .profile-content p {
-        font-size: 14px;
+        font-size: 18px;
         text-align: justify;
     }
 
@@ -2499,12 +2499,12 @@ body {
     }
 
     .profile-content h2 {
-        font-size: 20px;
+        font-size: 22px;
 		margin-top: -5%;
     }
 
     .profile-content p {
-        font-size: 13px;
+        font-size: 16px;
         line-height: 1.6;
     }
 
@@ -2512,6 +2512,39 @@ body {
         font-size: 14px;
     }
 }
+
+/* Mobile */
+@media (max-width:330px) {
+
+    .fade-slider-section {
+        padding: 40px 15px;
+    }
+
+    .card {
+        padding: 20px 15px;
+        border-radius: 15px;
+        gap: 20px;
+    }
+
+    .profile-img {
+        width:300px;
+    }
+
+    .profile-content h2 {
+        font-size: 22px;
+		margin-top: -5%;
+    }
+
+    .profile-content p {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+
+    .signature {
+        font-size: 10px;
+    }
+}
+
 /* ============================= */
 /* 📱 Tablets (Below 992px) */
 /* ============================= */
@@ -2526,11 +2559,12 @@ body {
     }
 
     .feature-card h3 {
-        font-size: 18px;
+        font-size:22px;
     }
 
     .feature-card ul li {
-        font-size: 14px;
+        font-size: 18px;
+		color: black;
     }
 }
 
@@ -2559,12 +2593,13 @@ body {
     }
 
     .feature-card h3 {
-        font-size: 17px;
+        font-size:20px;
     }
 
     .feature-card ul li {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 8px;
+		color: black;
     }
 }
 
@@ -2582,10 +2617,11 @@ body {
     }
 
     .feature-card h3 {
-        font-size: 16px;
+        font-size:20px;
     }
 
     .feature-card ul li {
-        font-size: 13px;
+        font-size: 15px;
+		color: black;
     }
 }

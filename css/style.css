@@ -1637,13 +1637,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
 /* ===== SECTION BACKGROUND ===== */
 .rules-wrapper {
     padding: 100px 20px;
@@ -1736,17 +1729,6 @@ img {
 }
 
 
-.subjects-section{
-padding:60px 20px;
-text-align:center;
-}
-
-.subjects-section h2{
-font-size:32px;
-color:#0b4da2;
-margin-bottom:40px;
-}
-
 .subjects-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -1805,6 +1787,94 @@ z-index:-1;
 color:#f0f0f0;
 }
 
+.courses{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.course-card{
+height:220px;
+position:relative;
+background-size:cover;
+background-position:center;
+border-radius:5px;
+overflow:hidden;
+cursor:pointer;
+transition:0.3s;
+}
+
+.course-card:hover{
+transform:scale(1.05);
+}
+
+.overlay{
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,0.45);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.overlay i{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.overlay h3{
+font-size:16px;
+letter-spacing:1px;
+}
+
+/* Background Images */
+
+.business{
+background-image:url("images/business.jpg");
+}
+
+.creative{
+background-image:url("images/creative.jpg");
+}
+
+.health{
+background-image:url("images/health.jpg");
+}
+
+.history{
+background-image:url("images/history.jpg");
+}
+
+.languages{
+background-image:url("images/language.jpg");
+}
+
+.law{
+background-image:url("images/law.jpg");
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+.courses{
+grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:500px){
+.courses{
+grid-template-columns:1fr;
+}
+}
 
 
 
@@ -2157,3 +2227,7 @@ color:#f0f0f0;
     height: 100%;
     background-color: #00000047; /* Same overlay */
 }
+
+
+
+
