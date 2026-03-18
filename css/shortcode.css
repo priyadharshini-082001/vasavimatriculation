@@ -2382,7 +2382,7 @@ background-color: rgba(0, 0, 0, 0.386);
 .pbmit-title-bar-wrapper5{
 	position: relative;
 	z-index: 1;
-	background-image: url(../images/logo/1.jpg);
+	background-image: url(../images/infra/robo\ \(3\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2443,6 +2443,18 @@ background-color: rgba(0, 0, 0, 0.386);
 	position: relative;
 	z-index: 1;
 	background-image: url(../images/logo/M1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0.386);
+	background-blend-mode: overlay;
+
+}
+.pbmit-title-bar-wrapper11{
+	position: relative;
+	z-index: 1;
+	background-image: url(../images/std/kg\ 1.JPG);
+	 background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
