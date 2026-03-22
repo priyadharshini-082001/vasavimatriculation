@@ -2315,4 +2315,48 @@ grid-template-columns:1fr;
 }
 
 
+.video-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.video-box img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* SVG ICON CENTER */
+.youtube-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 70px;
+    transition: 0.3s;
+}
+
+.youtube-icon svg {
+    width: 100%;
+    height: auto;
+}
+
+/* HOVER EFFECT */
+.video-box:hover .youtube-icon {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* DARK OVERLAY */
+.video-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.video-box:hover::after {
+    opacity: 1;
+}

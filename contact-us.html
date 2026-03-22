@@ -198,8 +198,9 @@
 		<!-- Header Main Area End Here -->
 
 		<!-- Contact Us Content -->
-		<div class="page-content">  
+		<div class="page-content" style="background-color: rgb(255, 255, 255);margin-top: -4%;">  
 
+						
 			<!-- Ihbox -->
 			<section class="section-xl" style="background-color: rgb(255, 255, 255);">
 				<div class="container">
@@ -275,56 +276,193 @@
 
 				
 						<!-- Appoinment Start -->
-			<section  style="background-color: #9ab0fb;padding:3%;">
-				<div class="container">
-					<div class="pbmit-bg-color-white appointment-two-area" >
-						<div class="row" style="padding: 3%;align-items: center;">
-							<div class="col-md-12 col-xl-6">
-								<div class="appointment-two-leftbox">
-									<img src="images/infra/DSC_6611.JPG" alt="">
-								</div>
-							</div>
-							<div class="col-md-12 col-xl-6">
-								<div class="appointment-two-mainbox">
-									<div class="pbmit-heading-subheading animation-style4">
-										<h4 class="pbmit-subtitle">Admission</h4>
-										<h2 class="pbmit-title" style="font-size: 32px;">Contact Us</h2>
-									</div>
-									<form style="margin-top: -5%;">
-										<div class="row">
-											<div class="col-md-6">
-												<input type="text" class="form-control" placeholder="Your Name" name="name" required>
-											</div>
-											<div class="col-md-6">
-												<input type="tel" class="form-control" placeholder="Phone Number" name="phone" required>
-											</div>
-											<div class="col-md-6">
-												<input type="email" class="form-control" placeholder="Email Address" name="email" required>
-											</div>
-											<div class="col-md-6">
-												<input type="text" class="form-control" placeholder="Subject" name="subject" required>
-											</div>
-											<div class="col-md-12">
-												<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Comment" required></textarea>
-											</div>
-											<div class="col-md-12">
-												<a class="pbmit-btn pbmit-btn-hover-global" href="contact-us.html">
-													<span class="pbmit-button-text">Send Massage</span>
-													<span class="pbmit-button-icon-wrapper">
-														<span class="pbmit-button-icon">
-															<i class="pbmit-base-icon-black-arrow-1"></i>
-														</span>
-													</span>
-												</a>
-											</div>
-										</div>
-									</form> 
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<style>
+
+
+
+/* CONTACT BOX */
+.info-box {
+    border: 2px solid #0b4da2;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea {
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Hover */
+.input-group input:hover,
+.input-group textarea:hover {
+    border-color: #0b4da2;
+}
+
+/* Focus (click) */
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #0b4da2;
+    outline: none;
+    box-shadow: 0 0 6px rgba(11, 77, 162, 0.4);
+}
+
+/* ADMISSION SECTION */
+.admission-container {
+    display: flex;
+    min-height: 500px;
+    margin: 50px auto;
+    max-width: 1200px;
+
+}
+
+.left-side {
+    flex: 1;
+    background: url('images/infra/build_enhanced.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+.left-overlay {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.right-side {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0b4da2;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: #2d3194;
+    color: white;
+    padding: 30px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .admission-container{
+        flex-direction: column;
+    }
+    .left-side{
+        height: 250px;
+    }
+}
+
+</style>
+
+
+<!-- ADMISSION FORM -->
+<div class="admission-container" style="margin-top: -4%;">
+
+    <div class="left-side">
+        <!-- You can add image here -->
+    </div>
+
+    <div class="right-side">
+        <h3>Admission Form</h3>
+
+        <form id="admissionForm">
+
+          <div class="input-group">
+    <input type="text" name="student_name" placeholder="Student Name" required>
+</div>
+
+<div class="input-group">
+    <input type="text" name="parent_name" placeholder="Parents Name" required>
+</div>
+
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="course" placeholder="Class" required>
+            </div>
+
+            <div class="input-group">
+                <textarea name="message" placeholder="Message"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="status"></p>
+    </div>
+
+</div>
+
+<!-- JS -->
+<script>
+const scriptURL = "https://script.google.com/macros/s/AKfycbym8FLjz_9Xf1xqyzwQE08wQFUrbER30qqjL6tLObgBD7Az6c3V-5hM-191ugE2_TJV/exec";
+
+const form = document.getElementById("admissionForm");
+const statusMsg = document.getElementById("status");
+
+form.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    statusMsg.innerHTML = "⏳ Submitting...";
+
+let formData = {
+    student_name: form.student_name.value || "",
+    parent_name: form.parent_name.value || "",
+    email: form.email.value || "",
+    phone: form.phone.value || "",
+    course: form.course.value || "",
+    message: form.message.value || ""
+};
+
+    fetch(scriptURL, {
+        method: "POST",
+        body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if(data.status === "success"){
+            statusMsg.innerHTML = "✅ Submitted Successfully!";
+            form.reset();
+        } else {
+            statusMsg.innerHTML = "❌ Failed to submit!";
+        }
+    })
+    .catch(error => {
+        statusMsg.innerHTML = "❌ Error! Check connection.";
+        console.error(error);
+    });
+});
+</script>
+
 			<!-- Appoinment End -->
 
 			<!-- Iframe -->
@@ -529,3 +667,9 @@ function closePopup() {
 
 <!-- Mirrored from agrimo-demo.pbminfotech.com/html-demo/homepage-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Feb 2026 15:15:12 GMT -->
 </html>
+
+
+
+
+
+

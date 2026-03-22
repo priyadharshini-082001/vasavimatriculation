@@ -757,13 +757,16 @@ body {
     	width: 50% !important;
 	}
 	.site-footer .pbmit-footer-widget-area .widget_text{
-		padding-top: 35px;
+		padding-top: 5px;
 	}
 	.site-footer .pbmit-footer-text-inner{
 		margin-left: 0;
 	}
 	.site-footer .pbmit-footer-widget-col-1 .textwidget {
 		padding-right: 100px;
+	}
+	.pbmit-footer-text-inner{
+		margin-top: -10%;
 	}
 }
 
