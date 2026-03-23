@@ -1455,15 +1455,15 @@ textarea.form-control{
     overflow: hidden;
     background: #3B3E97;
     color: #fff;
-    padding: 10px 0;
+    padding: 3px 0;
 }
 
 .marquee-text {
-    font-size: 20px;
+    font-size:18px;
     display: inline-block;
     white-space: nowrap;
     animation: scroll 10s linear infinite;
-    font-weight: 600;
+    font-weight:600;
 }
 
 @keyframes scroll {
@@ -2134,6 +2134,10 @@ grid-template-columns:1fr;
 
 
 
+
+
+
+
 /* ===== POPUP OVERLAY ===== */
 .popup-overlay {
     position: fixed;
@@ -2142,7 +2146,7 @@ grid-template-columns:1fr;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+        z-index: 10000;
     animation: fadeInOverlay 0.4s ease-in-out;
 }
 

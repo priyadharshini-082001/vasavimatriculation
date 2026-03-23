@@ -2286,7 +2286,7 @@ footer.site-footer a{
 .site-footer .pbmit-footer-text-inner{
 	font-size: 14px;
 	margin-left: 38.5%;
-    padding: 30px 0;
+    padding: 10px 0;
     border-top: 1px solid rgba(var(--pbmit-blackish-color-rgb), .2);
 }
 .site-footer .pbmit-footer-copyright-text-area{
@@ -2341,7 +2341,6 @@ footer.site-footer a{
     background-attachment: scroll;
 	background-color: rgba(0, 0, 0, 0.386);
 	background-blend-mode: overlay;
-
 }
 .pbmit-title-bar-wrapper2{
 	position: relative;
@@ -3671,3 +3670,7 @@ background-color: rgba(0, 0, 0, 0.386);
 .pbmit-slider-three .swiper-button-prev:after{
 	font-size: 30px;
 }
+
+
+
+
